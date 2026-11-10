@@ -1,0 +1,16 @@
+{
+  "name": "second-brain",
+  "description": "Marketplace do Second Brain: memória persistente hospedada para o Claude Code.",
+  "owner": {
+    "name": "Second Brain"
+  },
+  "plugins": [
+    {
+      "name": "segundo-cerebro",
+      "source": "./plugin",
+      "description": "Conecta o Claude Code ao serviço Second Brain hospedado e ensina o agente a buscar e salvar memórias.",
+      "category": "productivity",
+      "tags": ["memória", "mcp"]
+    }
+  ]
+}

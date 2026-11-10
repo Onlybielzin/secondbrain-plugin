@@ -1,0 +1,17 @@
+{
+  "description": "Lembra o agente de consultar a memória do Second Brain antes de tarefas não triviais.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/lembrete.txt"],
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
