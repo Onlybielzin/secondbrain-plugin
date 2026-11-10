@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "second-brain": {
+      "url": "https://secundbrain.vings.app/mcp",
+      "oauth": { "clientId": "sbc_antigravity" }
+    }
+  }
+}

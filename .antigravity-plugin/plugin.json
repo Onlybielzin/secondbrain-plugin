@@ -1,0 +1,17 @@
+{
+  "name": "segundo-cerebro",
+  "displayName": "Second Brain",
+  "description": "Memória persistente entre sessões: busca o que você já decidiu e salva preferências, fatos de projeto e aprendizados no seu Second Brain hospedado.",
+  "version": "0.3.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "O que você já sabe sobre este projeto?",
+    "Salve na memória que eu prefiro respostas curtas",
+    "Liste as entidades do meu Second Brain"
+  ],
+  "author": { "name": "Second Brain", "url": "https://secundbrain.vings.app" },
+  "homepage": "https://secundbrain.vings.app",
+  "repository": "https://github.com/Onlybielzin/secundbrain-plugin",
+  "license": "UNLICENSED",
+  "keywords": ["memoria", "memory", "mcp", "second-brain"]
+}
