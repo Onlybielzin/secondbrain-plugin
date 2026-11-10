@@ -1,0 +1,5 @@
+name: segundo-cerebro
+version: "0.3.0"
+description: Second Brain - memória persistente. Lembra o agente de buscar na memória antes das tarefas e traz a skill memoria. O servidor MCP second-brain é configurado à parte no config.yaml.
+provides_hooks:
+  - pre_llm_call

@@ -21,6 +21,26 @@ agy plugin install https://github.com/Onlybielzin/secundbrain-plugin
 
 Ao conectar o servidor `second-brain`, o navegador abre para o login com o GitHub. No Antigravity, o lembrete vem como regra sempre ativa (`rules/AGENTS.md`).
 
+## Hermes Agent
+
+1. Instale o plugin (lembrete a cada mensagem e skill `memoria`):
+   ```
+   hermes plugins install Onlybielzin/secundbrain-plugin --enable
+   ```
+2. Adicione o servidor no `~/.hermes/config.yaml`:
+   ```yaml
+   mcp_servers:
+     second-brain:
+       url: https://secundbrain.vings.app/mcp
+       auth: oauth
+   ```
+3. Faça o login (num terminal novo, fora de uma sessão):
+   ```
+   hermes mcp login second-brain
+   ```
+
+Hermes num servidor sem navegador: gere uma chave em https://secundbrain.vings.app/conta e use `headers: { Authorization: "Bearer sbk_..." }` no lugar de `auth: oauth`.
+
 ## Privacidade
 
 As memórias ficam no servidor do serviço, separadas por conta. A skill orienta o agente a nunca salvar senhas, tokens ou chaves. Em https://secundbrain.vings.app/conta você vê as conexões, revoga chaves e liga o backup das memórias num repositório seu do GitHub.
