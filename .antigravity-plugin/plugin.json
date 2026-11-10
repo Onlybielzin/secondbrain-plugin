@@ -9,9 +9,9 @@
     "Salve na memória que eu prefiro respostas curtas",
     "Liste as entidades do meu Second Brain"
   ],
-  "author": { "name": "Second Brain", "url": "https://secundbrain.vings.app" },
-  "homepage": "https://secundbrain.vings.app",
-  "repository": "https://github.com/Onlybielzin/secundbrain-plugin",
+  "author": { "name": "Second Brain", "url": "https://secondbrain.vings.app" },
+  "homepage": "https://secondbrain.vings.app",
+  "repository": "https://github.com/Onlybielzin/secondbrain-plugin",
   "license": "UNLICENSED",
   "keywords": ["memoria", "memory", "mcp", "second-brain"]
 }

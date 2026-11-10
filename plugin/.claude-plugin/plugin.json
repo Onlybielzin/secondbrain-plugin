@@ -1,7 +1,7 @@
 {
   "name": "segundo-cerebro",
   "displayName": "Second Brain",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Memória persistente entre sessões do Claude Code: conecta ao Second Brain hospedado (login com GitHub pelo /mcp), lembra de buscar memórias no início das tarefas e ensina quando salvar.",
   "author": {
     "name": "Second Brain"
@@ -16,7 +16,7 @@
   "mcpServers": {
     "second-brain": {
       "type": "http",
-      "url": "https://secundbrain.vings.app/mcp"
+      "url": "https://secondbrain.vings.app/mcp"
     }
   }
 }
